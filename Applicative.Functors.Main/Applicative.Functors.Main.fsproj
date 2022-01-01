@@ -16,4 +16,8 @@
       <Content Include="Dockerfile" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Applicative.Functors.Core\Applicative.Functors.Core.fsproj" />
+    </ItemGroup>
+
 </Project>

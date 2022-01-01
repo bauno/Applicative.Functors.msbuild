@@ -14,6 +14,11 @@
 
     <ItemGroup>
       <Compile Include="Core.Tests.fs" />
+      <Compile Include="Customer.Tests.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Applicative.Functors.Core\Applicative.Functors.Core.fsproj" />
     </ItemGroup>
 
 </Project>
