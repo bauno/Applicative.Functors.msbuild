@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Applicative.Functors.Main", "Applicative.Functors.Main\Applicative.Functors.Main.fsproj", "{9DF9C6FA-F935-4957-92CC-0DDF61C8AD48}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Applicative.Functors.Core", "Applicative.Functors.Core\Applicative.Functors.Core.fsproj", "{74114487-0BFE-42B4-89D9-9EE232F14451}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Applicative.Functors.Tests", "Applicative.Functors.Tests\Applicative.Functors.Tests.fsproj", "{8D102579-FE16-45F1-A1E0-3D2FC5EC9608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF9C6FA-F935-4957-92CC-0DDF61C8AD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF9C6FA-F935-4957-92CC-0DDF61C8AD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF9C6FA-F935-4957-92CC-0DDF61C8AD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF9C6FA-F935-4957-92CC-0DDF61C8AD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74114487-0BFE-42B4-89D9-9EE232F14451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74114487-0BFE-42B4-89D9-9EE232F14451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74114487-0BFE-42B4-89D9-9EE232F14451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74114487-0BFE-42B4-89D9-9EE232F14451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D102579-FE16-45F1-A1E0-3D2FC5EC9608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D102579-FE16-45F1-A1E0-3D2FC5EC9608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D102579-FE16-45F1-A1E0-3D2FC5EC9608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D102579-FE16-45F1-A1E0-3D2FC5EC9608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
