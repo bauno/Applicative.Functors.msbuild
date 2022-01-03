@@ -10,6 +10,7 @@
       <PackageReference Include="Chessie" Version="0.6.0" />
         <Compile Include="Customer.fs" />
         <Compile Include="Core.fs" />
+        <Compile Include="Processor.fs" />
     </ItemGroup>
 
 </Project>

@@ -15,6 +15,7 @@
     <ItemGroup>
       <Compile Include="Core.Tests.fs" />
       <Compile Include="Customer.Tests.fs" />
+      <Compile Include="ProcessorTests.fs" />
     </ItemGroup>
 
     <ItemGroup>

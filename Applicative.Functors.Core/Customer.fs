@@ -4,5 +4,10 @@ type Customer =
     {
         Id: int
         Name: string
-        Email: string
+        EMail: string
     }
+    
+type CustomerDto = {
+        Name: string
+        EMail: string
+}
