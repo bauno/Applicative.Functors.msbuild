@@ -3,7 +3,6 @@ open Applicative.Functors.Data
 open Applicative.Functors.Processor
 open FsUnit.Xunit
 open Xunit
-open Chessie.ErrorHandling
 open Applicative.Functors.TestConvenience
 
 [<Fact>]
@@ -14,9 +13,17 @@ let ``Can validate dto`` () =
     
 [<Fact>]  
 let ``dto with empty name is invalid`` () =
-     let dto = {Name = ""; EMail = "pippo@pippo.com"}
-     
-     let res =  dto |> validateDto
-     
-     res |> err |> should equal ["invalid name"]
-   
+     let dto = { Name = ""; EMail = "pippo@pippo.com" }
+         
+     dto |> validateDto |> err |> should equal ["invalid name"]
+
+[<Theory>]
+[<InlineData("pippo@pippo.com", true)>]
+[<InlineData("pippo@pluto", false)>]
+let ``Can check if email is valid`` (email: string) (expected: bool) =
+    let dto = { Name = "pippo"; EMail = email }
+    let actual = dto |> validateDto
+    match expected with
+    | true -> succ actual |> should equal dto
+    | false -> err actual |> should equal [ $"email '{email}' is not valid" ]
+    
