@@ -9,4 +9,4 @@ let ``I can pass the first dumb test`` () =
 
 [<Fact>]
 let ``I can pass the second dumb test`` () =
-    1 + 1 |> should equal  
+    1 + 1 |> should equal  2

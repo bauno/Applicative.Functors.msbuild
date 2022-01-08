@@ -11,6 +11,11 @@
         <Compile Include="Customer.fs" />
         <Compile Include="Core.fs" />
         <Compile Include="Processor.fs" />
+        <Compile Include="Club.Data.fs" />
+        <Compile Include="Club.Validation.fs" />
+        <Compile Include="ClubTropicana.fs" />
+        <Compile Include="ClubDeath.fs" />
+        <Compile Include="GayClub.fs" />
     </ItemGroup>
 
 </Project>

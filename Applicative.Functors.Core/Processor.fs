@@ -2,14 +2,15 @@ module Applicative.Functors.Processor
 
 open Chessie.ErrorHandling
 open Applicative.Functors.Data
+open Applicative.Functors.Core
 
 //validate dto
 let validateDto dto =
-    if dto.Name.Length <> 0
-    then 
-        ok dto
-    else
-        fail "invalid name"
+    validateName dto.Name
+//    >>= validateEmail dto.EMail
+//    |> function
+//        | Ok _ -> ok dto
+//        | Bad es -> fail es.Head
 
 //create customer
 

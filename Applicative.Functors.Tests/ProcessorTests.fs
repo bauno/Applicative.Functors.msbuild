@@ -14,8 +14,7 @@ let ``Can validate dto`` () =
 [<Fact>]  
 let ``dto with empty name is invalid`` () =
      let dto = { Name = ""; EMail = "pippo@pippo.com" }
-         
-     dto |> validateDto |> err |> should equal ["invalid name"]
+     dto |> validateDto |> err |> should equal ["name '' is too short"]
 
 [<Theory>]
 [<InlineData("pippo@pippo.com", true)>]
@@ -25,5 +24,4 @@ let ``Can check if email is valid`` (email: string) (expected: bool) =
     let actual = dto |> validateDto
     match expected with
     | true -> succ actual |> should equal dto
-    | false -> err actual |> should equal [ $"email '{email}' is not valid" ]
-    
+    | false -> err actual |> should equal $"email '{email}' is not valid"
