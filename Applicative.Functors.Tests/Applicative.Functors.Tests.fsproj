@@ -18,6 +18,7 @@
       <Compile Include="Customer.Tests.fs" />
       <Compile Include="ProcessorTests.fs" />
       <Compile Include="Club.Tests.fs" />
+      <Compile Include="Applicant.Tests.fs" />
     </ItemGroup>
 
     <ItemGroup>

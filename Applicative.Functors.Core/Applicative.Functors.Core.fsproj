@@ -16,6 +16,8 @@
         <Compile Include="ClubTropicana.fs" />
         <Compile Include="ClubDeath.fs" />
         <Compile Include="GayClub.fs" />
+        <Compile Include="Applicant.fs" />
+        <Compile Include="Applicant.Validation.fs" />
     </ItemGroup>
 
 </Project>
