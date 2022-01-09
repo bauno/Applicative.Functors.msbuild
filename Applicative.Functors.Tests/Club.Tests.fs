@@ -5,7 +5,6 @@ open Applicative.Functors
 open FsUnit.Xunit
 open Xunit
 open Chessie.ErrorHandling
-open Applicative.Functors.TestConvenience
 
 let Ken = { Person.Gender = Male; Age = 28; Clothes = set ["Tie"; "Shirt"]; Sobriety = Tipsy }
 let Dave = { Person.Gender = Male; Age = 41; Clothes = set ["Tie"; "Jeans"]; Sobriety = Sober }
@@ -14,7 +13,7 @@ let Tom = { Person.Gender = Male; Age = 59; Clothes = set ["Jeans"]; Sobriety = 
 
 [<Fact>]
 let ``A paralytic cannot enter a gay bar`` () =
+     let expected =  Bad ["Too old!"; "Smarten up!"; "Sober up!" ] : Result<decimal, string>
      Tom
      |> GayClub.costToEnter
-     |> err
-     |> should equal ["Too old!"; "Smarten up!"; "Sober up!"]
+     |> should equal expected
