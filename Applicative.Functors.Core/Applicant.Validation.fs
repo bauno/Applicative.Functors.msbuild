@@ -23,6 +23,6 @@ let reportMessages request =
   match recheckApplicant request with
   | Pass  _       ->  printfn "Nothing to report"
   | Warn (_,log)  ->  printfn "Got some issues:"
-                      for msg in log do printfn "  %s" msg
+                      for msg in log do printfn $"{msg}"
   | Fail  errors  ->  printfn "Got errors:"
-                      for msg in errors do printfn "  %s" msg
+                      for msg in errors do printfn $"{msg}"

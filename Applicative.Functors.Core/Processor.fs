@@ -6,12 +6,9 @@ open Applicative.Functors.Core
 
 //validate dto
 let validateDto dto =
-    validateName dto.Name
-//    >>= validateEmail dto.EMail
-//    |> function
-//        | Ok _ -> ok dto
-//        | Bad es -> fail es.Head
-
+    validateDtoName dto
+    >>= validateDtoEmail
+    
 //create customer
 
 // process customer

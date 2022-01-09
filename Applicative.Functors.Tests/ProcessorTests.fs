@@ -19,9 +19,10 @@ let ``dto with empty name is invalid`` () =
 [<Theory>]
 [<InlineData("pippo@pippo.com", true)>]
 [<InlineData("pippo@pluto", false)>]
+[<InlineData("", false)>]
 let ``Can check if email is valid`` (email: string) (expected: bool) =
     let dto = { Name = "pippo"; EMail = email }
     let actual = dto |> validateDto
     match expected with
     | true -> succ actual |> should equal dto
-    | false -> err actual |> should equal $"email '{email}' is not valid"
+    | false -> err actual |> should equal [$"email '{email}' is not valid"]
