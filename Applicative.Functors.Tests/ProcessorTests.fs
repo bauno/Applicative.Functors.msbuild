@@ -6,15 +6,16 @@ open Xunit
 open Chessie.ErrorHandling
 
 [<Fact>]
-let ``Can validate dto`` () =
-    let dto = {Name = "pippo"; EMail = "pippo@pippo.com"}
-       
-    dto |> validateDto |> should equal (ok<CustomerDto, string> {Name = "pippo"; EMail = "pippo@pippo.com"})
+let ``Can validate dto`` () =   
+    {Name = "pippo"; EMail = "pippo@pippo.com"}
+    |> validateDto
+    |> should equal (ok<CustomerDto, string> {Name = "pippo"; EMail = "pippo@pippo.com"})
     
 [<Fact>]  
 let ``dto with empty name is invalid`` () =
-     let dto = { Name = ""; EMail = "pippo@pippo.com" }
-     dto |> validateDto |> should equal (fail<CustomerDto, string> "name '' is too short")
+     { Name = ""; EMail = "pippo@pippo.com" }
+     |> validateDto
+     |> should equal (fail<CustomerDto, string> "name '' is too short")
 
 [<Theory>]
 [<InlineData("pippo@pippo.com", true)>]

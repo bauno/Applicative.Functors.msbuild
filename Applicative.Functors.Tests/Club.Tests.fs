@@ -14,6 +14,31 @@ let Tom = { Person.Gender = Male; Age = 59; Clothes = set ["Jeans"]; Sobriety = 
 [<Fact>]
 let ``A paralytic cannot enter a gay bar`` () =
      let expected =  Bad ["Too old!"; "Smarten up!"; "Sober up!" ] : Result<decimal, string>
+     
      Tom
      |> GayClub.costToEnter
      |> should equal expected
+
+[<Fact>]
+let ``Ken can be clubbed to death`` () =
+     Ken
+     |> ClubDeath.costToEnter
+     |> should equal (ok<decimal, string>(5m))
+
+[<Fact>]
+let ``Dave is too old to enter`` () =
+     Dave
+     |> ClubDeath.costToEnter
+     |> should equal (fail<decimal, string> "Too old!")
+     
+[<Fact>]
+let ``Ruby can enter for free`` () =
+     Ruby
+     |> ClubDeath.costToEnter
+     |> should equal (ok<decimal, string> 0m)
+     
+[<Fact>]
+let ``Young Ruby cannot enter`` () =
+     {Ruby with Age=17}
+     |> ClubDeath.costToEnter
+     |> should equal (fail<decimal, string> "Too young!")
