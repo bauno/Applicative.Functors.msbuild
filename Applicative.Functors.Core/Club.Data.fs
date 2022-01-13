@@ -7,12 +7,14 @@ type Sobriety =
     | Paralytic
     | Unconscious
 
-type Genders = 
+type Gender = 
     | Male
     | Female
 
-type Person = 
-    { Gender : Genders
+type Person = {
+      Gender : Gender
       Age : int
       Clothes : string Set
-      Sobriety : Sobriety }
+      Sobriety : Sobriety 
+      HasTicket: bool
+      }

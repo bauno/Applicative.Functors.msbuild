@@ -4,11 +4,12 @@ open Applicative.Functors.Club_Data
 open Applicative.Functors.Club_Validation
 open Chessie.ErrorHandling
 
-let costToEnter person =
+let private costToEnter' checks  person =
+    
     trial {
         let! result::_ =  
-            [checkGender; checkAge; checkClothes; checkSobriety] 
-            |> List.map(fun validate -> validate person)
+            checks
+            |> List.map(fun check -> check person)
             |> collect
             
         return 
@@ -16,3 +17,7 @@ let costToEnter person =
             | Female -> 0m
             | Male -> 7.5m
     }
+
+let costToEnter person =
+    let checks = [checkGender; checkAge; checkClothes; checkSobriety; checkTicket] 
+    costToEnter' checks person

@@ -1,27 +1,23 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <WarnOn>3390;$(WarnOn)</WarnOn>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="FsUnit.xUnit" Version="4.1.0" />
-      <PackageReference Update="FSharp.Core" Version="5.0.2" />
-      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Include="Core.Tests.fs" />
-      <Compile Include="Customer.Tests.fs" />
-      <Compile Include="ProcessorTests.fs" />
-      <Compile Include="Club.Tests.fs" />
-      <Compile Include="Applicant.Tests.fs" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Applicative.Functors.Core\Applicative.Functors.Core.fsproj" />
-    </ItemGroup>
-
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FsUnit.xUnit" Version="4.1.0"/>
+    <PackageReference Update="FSharp.Core" Version="5.0.2"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="*"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core.Tests.fs"/>
+    <Compile Include="Customer.Tests.fs"/>
+    <Compile Include="ProcessorTests.fs"/>
+    <Compile Include="Club.Tests.fs"/>
+    <Compile Include="Applicant.Tests.fs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Applicative.Functors.Core\Applicative.Functors.Core.fsproj"/>
+  </ItemGroup>
 </Project>

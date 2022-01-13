@@ -22,7 +22,7 @@ let ``Applicant with warnings`` () =
     applicant |> recheckApplicant |> should equal (warn<Applicant, string> "First name is missing" applicant)
 
 [<Fact>]
-let ``terminal failure``() =
+let ``Good applicant``() =
     let applicant = { FullName      = "Bob","Smith" 
                       DateOfBirth   = DateTime (1995,12,21)
                       FavoriteColor = Some Color.Green}
