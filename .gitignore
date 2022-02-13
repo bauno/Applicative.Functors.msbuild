@@ -6,4 +6,5 @@ riderModule.iml
 .fake
 .ionide
 .vscode/
+*.DotSettings.user
 Applicative.Functors.msbuild.sln.DotSettings.user

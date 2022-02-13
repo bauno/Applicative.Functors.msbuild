@@ -18,11 +18,10 @@ let checkSobriety p =
     | Drunk | Paralytic | Unconscious -> fail "Sober up!"
     | _ -> ok p
 
-let checkGender p = 
+let checkGender p =
     if p.Gender = Male then ok p 
     else fail "Men Only"
 
 let checkTicket p = 
     if p.HasTicket then ok p
     else fail "You have to buy a ticket!"
-

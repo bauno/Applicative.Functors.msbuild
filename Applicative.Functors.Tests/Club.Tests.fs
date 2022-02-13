@@ -14,6 +14,8 @@ let Tom = { Person.Gender = Male; Age = 59; Clothes = set ["Jeans"]; Sobriety = 
 
 let ``Tom's son`` = { Person.Gender = Male; Age = 12; Clothes = set ["Jeans"]; Sobriety = Sober; HasTicket = false }
 
+let ``Tom's smart son`` = { Person.Gender = Male; Age = 22; Clothes = set ["Jeans"; "Tie"]; Sobriety = Sober; HasTicket = true }
+
 [<Fact>]
 let ``A paralytic cannot enter a gay bar`` () =
      let expected =  Bad ["Too old!"; "Smarten up!"; "Sober up!"; "You have to buy a ticket!" ] : Result<decimal, string>
@@ -57,3 +59,9 @@ let ``what about tom's son?``() =
      ``Tom's son``
      |> GayClub.costToEnter
      |> should equal (Bad ["Too young!"; "Smarten up!"; "You have to buy a ticket!"] : Result<decimal, string>)
+
+[<Fact>]
+let ``what about tom's smart son?``() =
+     ``Tom's smart son``
+     |> GayClub.costToEnter
+     |> should equal (ok<decimal, string> 7.5m)
