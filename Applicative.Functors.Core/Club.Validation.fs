@@ -8,20 +8,20 @@ let checkAge p =
     elif p.Age > 40 then fail "Too old!"
     else ok p
 
-let checkClothes p = 
-    if p.Gender = Male && not (p.Clothes.Contains "Tie") then fail "Smarten up!"
-    elif p.Gender = Female && p.Clothes.Contains "Trainers" then fail "Wear high heels"
-    else ok p
+let checkClothes person = 
+    if person.Gender = Male && not (person.Clothes.Contains "Tie") then fail "Smarten up!"
+    elif person.Gender = Female && person.Clothes.Contains "Trainers" then fail "Wear high heels"
+    else ok person
 
-let checkSobriety p = 
-    match p.Sobriety with
+let checkSobriety person = 
+    match person.Sobriety with
     | Drunk | Paralytic | Unconscious -> fail "Sober up!"
-    | _ -> ok p
+    | _ -> ok person
 
-let checkGender p =
-    if p.Gender = Male then ok p 
+let checkGender person =
+    if person.Gender = Male then ok person
     else fail "Men Only"
 
-let checkTicket p = 
-    if p.HasTicket then ok p
+let checkTicket person = 
+    if person.HasTicket then ok person
     else fail "You have to buy a ticket!"
