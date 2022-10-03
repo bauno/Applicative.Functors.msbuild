@@ -7,13 +7,15 @@ open Chessie.ErrorHandling
 let private costToEnter' checks  person =
     
     trial {
-        let! result::_ =  
+        
+        let! result =  
             checks
             |> List.map(fun check -> check person)
             |> collect
             
         return 
-            match result.Gender with
+            result.Head.Gender
+            |> function
             | Female -> 0m
             | Male -> 7.5m
     }

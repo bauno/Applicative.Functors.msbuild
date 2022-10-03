@@ -8,8 +8,8 @@ open Applicative.Functors.Data
 [<Fact>]
 let ``bind should bypass after first error``() = 
     let validate c = ok c
-    let update c = fail "update error"
-    let send c = fail "send error"
+    let update _ = fail "update error"
+    let send _ = fail "send error"
 
     let customer = { Id = 42; Name = "John"; EMail = "john@example.com" }
 
@@ -20,13 +20,13 @@ let ``bind should bypass after first error``() =
 
 [<Fact>]
 let ``bind should create valid customer if no failures``() = 
-    let validate n dto  = ok dto
-    let update i c  = ok c
+    let validate _ dto  = ok dto
+    let update _ c  = ok c
     let send c = ok c
 
     let customer = { Id = 42; Name = "John"; EMail = "john@example.com" }
     
-    let create dto = ok customer
+    let create _ = ok customer
 
     validate "pippo" 3
     >>= create

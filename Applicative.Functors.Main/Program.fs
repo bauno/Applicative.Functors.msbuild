@@ -8,5 +8,5 @@ let from whom =
 [<EntryPoint>]
 let main argv =
     let message = from "il porco Dio" // Call the function
-    printfn "\nHello world %s" message
+    printfn $"\nHello world %s{message}"
     0 // return an integer exit code

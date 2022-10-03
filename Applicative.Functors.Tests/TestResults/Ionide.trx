@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9fbbf4d1-cce2-4bd4-99b6-3df61baeb8ee" name="@fedoraxps 2022-04-16 20:34:25" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-04-16T20:34:25.1383448+02:00" queuing="2022-04-16T20:34:25.1383449+02:00" start="2022-04-16T20:34:15.7230513+02:00" finish="2022-04-16T20:34:25.4325658+02:00" />
+  <TestSettings name="default" id="4549cd90-adbb-447a-87c8-e95ae2e9ff13">
+    <Deployment runDeploymentRoot="_fedoraxps_2022-04-16_20_34_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="99305ec5-56a0-45f9-9cfe-b72e6d08707d" testId="849e36a6-b6d6-0a43-e93d-0fd4705a27c7" testName="Applicative.Functors.Tests.Applicant_Tests.Good applicant" computerName="fedoraxps" duration="00:00:00.6486763" startTime="2022-04-16T20:34:25.0599711+02:00" endTime="2022-04-16T20:34:25.0599712+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99305ec5-56a0-45f9-9cfe-b72e6d08707d" />
+    <UnitTestResult executionId="8f3a3373-a307-4687-a22b-ebe7ee6170d7" testId="76ccad63-5da5-6b1e-24e1-cb456392e770" testName="Applicative.Functors.Tests.Club_Tests.what about tom's son?" computerName="fedoraxps" duration="00:00:00.0014817" startTime="2022-04-16T20:34:25.0563423+02:00" endTime="2022-04-16T20:34:25.0563424+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f3a3373-a307-4687-a22b-ebe7ee6170d7" />
+    <UnitTestResult executionId="b3802d07-9a14-4a20-9756-b9565d1736cf" testId="e069aebf-2394-8489-bd43-35de1636839f" testName="Applicative.Functors.Tests.Applicant_Tests.Bad applicant" computerName="fedoraxps" duration="00:00:00.0325602" startTime="2022-04-16T20:34:25.0601715+02:00" endTime="2022-04-16T20:34:25.0601715+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3802d07-9a14-4a20-9756-b9565d1736cf" />
+    <UnitTestResult executionId="b8bb160c-5b95-45aa-a6a6-334561aaf8e8" testId="8adb1f86-40a1-644f-cfb3-b79c95c75814" testName="Applicative.Functors.Tests.Club_Tests.Dave is too old to enter a gay club" computerName="fedoraxps" duration="00:00:00.0023019" startTime="2022-04-16T20:34:25.0564436+02:00" endTime="2022-04-16T20:34:25.0564436+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8bb160c-5b95-45aa-a6a6-334561aaf8e8" />
+    <UnitTestResult executionId="890a438f-5415-4520-a380-bde0b662384b" testId="00bc8bd9-d9b9-de19-38a2-88044e1bb649" testName="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;pippo@pluto&quot;, expected: False)" computerName="fedoraxps" duration="00:00:00.0005810" startTime="2022-04-16T20:34:25.0566258+02:00" endTime="2022-04-16T20:34:25.0566259+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="890a438f-5415-4520-a380-bde0b662384b" />
+    <UnitTestResult executionId="5a05363f-3613-4c10-ba69-57b259ad6f60" testId="f636d55e-bded-ee97-1543-dcfbad1a744e" testName="Applicative.Functors.Tests.Core.I can pass the second dumb test" computerName="fedoraxps" duration="00:00:00.2731262" startTime="2022-04-16T20:34:24.7558708+02:00" endTime="2022-04-16T20:34:24.7558709+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a05363f-3613-4c10-ba69-57b259ad6f60" />
+    <UnitTestResult executionId="4dda60b2-a3e1-4c18-9ae5-6aa106a79538" testId="892a2390-44d5-b3b2-8cac-e3543107f528" testName="Applicative.Functors.Tests.ProcessorTests.Can validate dto" computerName="fedoraxps" duration="00:00:00.0080023" startTime="2022-04-16T20:34:25.0600653+02:00" endTime="2022-04-16T20:34:25.0600653+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dda60b2-a3e1-4c18-9ae5-6aa106a79538" />
+    <UnitTestResult executionId="c4f0ff87-d2c4-4c00-9233-8204e59f1f1e" testId="0c0dd076-b4f2-8f46-6671-6fe2f71737d1" testName="Applicative.Functors.Tests.Club_Tests.Ruby can enter for free" computerName="fedoraxps" duration="00:00:00.0026004" startTime="2022-04-16T20:34:25.0563921+02:00" endTime="2022-04-16T20:34:25.0563922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4f0ff87-d2c4-4c00-9233-8204e59f1f1e" />
+    <UnitTestResult executionId="40548840-9651-4dd6-a0db-dc1f5ba760c8" testId="8e246529-ff61-c993-0335-f01be4522c4d" testName="Applicative.Functors.Tests.Club_Tests.what about tom's smart son?" computerName="fedoraxps" duration="00:00:00.0156338" startTime="2022-04-16T20:34:25.0560424+02:00" endTime="2022-04-16T20:34:25.0560425+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40548840-9651-4dd6-a0db-dc1f5ba760c8" />
+    <UnitTestResult executionId="226d24fb-338c-4052-b9f5-75eb58227f2d" testId="34f0a350-66ed-9386-15f7-4c41814fc0a8" testName="Applicative.Functors.Tests.Customer.bind should bypass after first error" computerName="fedoraxps" duration="00:00:00.5573084" startTime="2022-04-16T20:34:24.9425551+02:00" endTime="2022-04-16T20:34:24.9425552+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="226d24fb-338c-4052-b9f5-75eb58227f2d" />
+    <UnitTestResult executionId="0a8ae682-d6bd-41e4-b86c-5134425311af" testId="bdf674cd-3e90-08e5-8e66-e820a467791e" testName="Applicative.Functors.Tests.Applicant_Tests.Applicant with warnings" computerName="fedoraxps" duration="00:00:00.0159497" startTime="2022-04-16T20:34:25.0717167+02:00" endTime="2022-04-16T20:34:25.0717168+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a8ae682-d6bd-41e4-b86c-5134425311af" />
+    <UnitTestResult executionId="299c71db-a800-4f7f-b98f-ea93dceb56b4" testId="b2ed2bb4-2c61-5294-fb6a-402ffa32b803" testName="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;&quot;, expected: False)" computerName="fedoraxps" duration="00:00:00.0511953" startTime="2022-04-16T20:34:25.0565496+02:00" endTime="2022-04-16T20:34:25.0565496+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="299c71db-a800-4f7f-b98f-ea93dceb56b4" />
+    <UnitTestResult executionId="5eff4bc4-288c-4d48-9a8d-d7d128ddf918" testId="597fd693-24bd-5ba0-dbb2-f1f382b4e56c" testName="Applicative.Functors.Tests.Club_Tests.Dave is too old to enter" computerName="fedoraxps" duration="00:00:00.0016622" startTime="2022-04-16T20:34:25.0562828+02:00" endTime="2022-04-16T20:34:25.0562828+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eff4bc4-288c-4d48-9a8d-d7d128ddf918" />
+    <UnitTestResult executionId="2fe089d6-e1e7-492a-8013-880f9894c5ba" testId="41babcb4-f9ce-d45a-de38-f70bfcc856e3" testName="Applicative.Functors.Tests.Club_Tests.A paralytic cannot enter a gay bar" computerName="fedoraxps" duration="00:00:00.5612383" startTime="2022-04-16T20:34:24.9353830+02:00" endTime="2022-04-16T20:34:24.9353831+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe089d6-e1e7-492a-8013-880f9894c5ba" />
+    <UnitTestResult executionId="769709a7-7bae-46c9-bdeb-5e07f7f0c0cf" testId="312197b8-e13d-92aa-0322-5c68b0d3c8c0" testName="Applicative.Functors.Tests.Customer.bind should create valid customer if no failures" computerName="fedoraxps" duration="00:00:00.0859010" startTime="2022-04-16T20:34:25.0601219+02:00" endTime="2022-04-16T20:34:25.0601220+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="769709a7-7bae-46c9-bdeb-5e07f7f0c0cf" />
+    <UnitTestResult executionId="6e3911b5-65d9-4802-823e-551f462cb3be" testId="3056423f-baba-6489-b220-2c07db4200ed" testName="Applicative.Functors.Tests.Core.I can pass the first dumb test" computerName="fedoraxps" duration="00:00:00.0394462" startTime="2022-04-16T20:34:24.5746723+02:00" endTime="2022-04-16T20:34:24.5747352+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e3911b5-65d9-4802-823e-551f462cb3be" />
+    <UnitTestResult executionId="daccdbf2-d20d-40e6-9a1b-652012c00932" testId="7964ae4f-4cd0-369c-d993-70e6bc25416e" testName="Applicative.Functors.Tests.Club_Tests.Ken can be clubbed to death" computerName="fedoraxps" duration="00:00:00.0044831" startTime="2022-04-16T20:34:25.0565081+02:00" endTime="2022-04-16T20:34:25.0565082+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="daccdbf2-d20d-40e6-9a1b-652012c00932" />
+    <UnitTestResult executionId="7ce811cb-82a7-4fde-85bd-26aa46935af9" testId="2991f209-1df1-b4a4-3eb1-d46319730dec" testName="Applicative.Functors.Tests.ProcessorTests.dto with empty name is invalid" computerName="fedoraxps" duration="00:00:00.0466943" startTime="2022-04-16T20:34:24.9426882+02:00" endTime="2022-04-16T20:34:24.9426884+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ce811cb-82a7-4fde-85bd-26aa46935af9" />
+    <UnitTestResult executionId="3a6b0956-2b5e-4735-be5d-84c85dbc4fd8" testId="601c013e-eb85-0645-0ddb-6b770b4e81d0" testName="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;pippo@pippo.com&quot;, expected: True)" computerName="fedoraxps" duration="00:00:00.0233044" startTime="2022-04-16T20:34:25.0565885+02:00" endTime="2022-04-16T20:34:25.0565886+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a6b0956-2b5e-4735-be5d-84c85dbc4fd8" />
+    <UnitTestResult executionId="8ae7becc-1905-4c13-b37d-ef540b966d26" testId="2c7bd2bd-f028-9960-acd0-28e4aed9bb80" testName="Applicative.Functors.Tests.Club_Tests.Young Ruby cannot enter" computerName="fedoraxps" duration="00:00:00.0044462" startTime="2022-04-16T20:34:24.9401105+02:00" endTime="2022-04-16T20:34:24.9401106+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ae7becc-1905-4c13-b37d-ef540b966d26" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.what about tom's son?" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="76ccad63-5da5-6b1e-24e1-cb456392e770">
+      <Execution id="8f3a3373-a307-4687-a22b-ebe7ee6170d7" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="what about tom's son?" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;pippo@pippo.com&quot;, expected: True)" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="601c013e-eb85-0645-0ddb-6b770b4e81d0">
+      <Execution id="3a6b0956-2b5e-4735-be5d-84c85dbc4fd8" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.ProcessorTests" name="Can check if email is valid" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Core.I can pass the first dumb test" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="3056423f-baba-6489-b220-2c07db4200ed">
+      <Execution id="6e3911b5-65d9-4802-823e-551f462cb3be" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Core" name="I can pass the first dumb test" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;pippo@pluto&quot;, expected: False)" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="00bc8bd9-d9b9-de19-38a2-88044e1bb649">
+      <Execution id="890a438f-5415-4520-a380-bde0b662384b" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.ProcessorTests" name="Can check if email is valid" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Customer.bind should create valid customer if no failures" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="312197b8-e13d-92aa-0322-5c68b0d3c8c0">
+      <Execution id="769709a7-7bae-46c9-bdeb-5e07f7f0c0cf" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Customer" name="bind should create valid customer if no failures" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.Ruby can enter for free" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="0c0dd076-b4f2-8f46-6671-6fe2f71737d1">
+      <Execution id="c4f0ff87-d2c4-4c00-9233-8204e59f1f1e" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="Ruby can enter for free" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.A paralytic cannot enter a gay bar" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="41babcb4-f9ce-d45a-de38-f70bfcc856e3">
+      <Execution id="2fe089d6-e1e7-492a-8013-880f9894c5ba" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="A paralytic cannot enter a gay bar" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Applicant_Tests.Applicant with warnings" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="bdf674cd-3e90-08e5-8e66-e820a467791e">
+      <Execution id="0a8ae682-d6bd-41e4-b86c-5134425311af" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Applicant_Tests" name="Applicant with warnings" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.ProcessorTests.dto with empty name is invalid" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="2991f209-1df1-b4a4-3eb1-d46319730dec">
+      <Execution id="7ce811cb-82a7-4fde-85bd-26aa46935af9" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.ProcessorTests" name="dto with empty name is invalid" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.Ken can be clubbed to death" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="7964ae4f-4cd0-369c-d993-70e6bc25416e">
+      <Execution id="daccdbf2-d20d-40e6-9a1b-652012c00932" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="Ken can be clubbed to death" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.what about tom's smart son?" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="8e246529-ff61-c993-0335-f01be4522c4d">
+      <Execution id="40548840-9651-4dd6-a0db-dc1f5ba760c8" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="what about tom's smart son?" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.Young Ruby cannot enter" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="2c7bd2bd-f028-9960-acd0-28e4aed9bb80">
+      <Execution id="8ae7becc-1905-4c13-b37d-ef540b966d26" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="Young Ruby cannot enter" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.Dave is too old to enter a gay club" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="8adb1f86-40a1-644f-cfb3-b79c95c75814">
+      <Execution id="b8bb160c-5b95-45aa-a6a6-334561aaf8e8" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="Dave is too old to enter a gay club" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Applicant_Tests.Bad applicant" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="e069aebf-2394-8489-bd43-35de1636839f">
+      <Execution id="b3802d07-9a14-4a20-9756-b9565d1736cf" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Applicant_Tests" name="Bad applicant" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Core.I can pass the second dumb test" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="f636d55e-bded-ee97-1543-dcfbad1a744e">
+      <Execution id="5a05363f-3613-4c10-ba69-57b259ad6f60" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Core" name="I can pass the second dumb test" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.ProcessorTests.Can validate dto" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="892a2390-44d5-b3b2-8cac-e3543107f528">
+      <Execution id="4dda60b2-a3e1-4c18-9ae5-6aa106a79538" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.ProcessorTests" name="Can validate dto" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Club_Tests.Dave is too old to enter" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="597fd693-24bd-5ba0-dbb2-f1f382b4e56c">
+      <Execution id="5eff4bc4-288c-4d48-9a8d-d7d128ddf918" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Club_Tests" name="Dave is too old to enter" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Applicant_Tests.Good applicant" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="849e36a6-b6d6-0a43-e93d-0fd4705a27c7">
+      <Execution id="99305ec5-56a0-45f9-9cfe-b72e6d08707d" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Applicant_Tests" name="Good applicant" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.ProcessorTests.Can check if email is valid(email: &quot;&quot;, expected: False)" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="b2ed2bb4-2c61-5294-fb6a-402ffa32b803">
+      <Execution id="299c71db-a800-4f7f-b98f-ea93dceb56b4" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.ProcessorTests" name="Can check if email is valid" />
+    </UnitTest>
+    <UnitTest name="Applicative.Functors.Tests.Customer.bind should bypass after first error" storage="/home/bauno/src/applicative.functors.msbuild/applicative.functors.tests/bin/debug/net6.0/applicative.functors.tests.dll" id="34f0a350-66ed-9386-15f7-4c41814fc0a8">
+      <Execution id="226d24fb-338c-4052-b9f5-75eb58227f2d" />
+      <TestMethod codeBase="/home/bauno/src/Applicative.Functors.msbuild/Applicative.Functors.Tests/bin/Debug/net6.0/Applicative.Functors.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Applicative.Functors.Tests.Customer" name="bind should bypass after first error" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="849e36a6-b6d6-0a43-e93d-0fd4705a27c7" executionId="99305ec5-56a0-45f9-9cfe-b72e6d08707d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76ccad63-5da5-6b1e-24e1-cb456392e770" executionId="8f3a3373-a307-4687-a22b-ebe7ee6170d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e069aebf-2394-8489-bd43-35de1636839f" executionId="b3802d07-9a14-4a20-9756-b9565d1736cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8adb1f86-40a1-644f-cfb3-b79c95c75814" executionId="b8bb160c-5b95-45aa-a6a6-334561aaf8e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00bc8bd9-d9b9-de19-38a2-88044e1bb649" executionId="890a438f-5415-4520-a380-bde0b662384b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f636d55e-bded-ee97-1543-dcfbad1a744e" executionId="5a05363f-3613-4c10-ba69-57b259ad6f60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="892a2390-44d5-b3b2-8cac-e3543107f528" executionId="4dda60b2-a3e1-4c18-9ae5-6aa106a79538" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c0dd076-b4f2-8f46-6671-6fe2f71737d1" executionId="c4f0ff87-d2c4-4c00-9233-8204e59f1f1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e246529-ff61-c993-0335-f01be4522c4d" executionId="40548840-9651-4dd6-a0db-dc1f5ba760c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34f0a350-66ed-9386-15f7-4c41814fc0a8" executionId="226d24fb-338c-4052-b9f5-75eb58227f2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdf674cd-3e90-08e5-8e66-e820a467791e" executionId="0a8ae682-d6bd-41e4-b86c-5134425311af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2ed2bb4-2c61-5294-fb6a-402ffa32b803" executionId="299c71db-a800-4f7f-b98f-ea93dceb56b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="597fd693-24bd-5ba0-dbb2-f1f382b4e56c" executionId="5eff4bc4-288c-4d48-9a8d-d7d128ddf918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41babcb4-f9ce-d45a-de38-f70bfcc856e3" executionId="2fe089d6-e1e7-492a-8013-880f9894c5ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="312197b8-e13d-92aa-0322-5c68b0d3c8c0" executionId="769709a7-7bae-46c9-bdeb-5e07f7f0c0cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3056423f-baba-6489-b220-2c07db4200ed" executionId="6e3911b5-65d9-4802-823e-551f462cb3be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7964ae4f-4cd0-369c-d993-70e6bc25416e" executionId="daccdbf2-d20d-40e6-9a1b-652012c00932" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2991f209-1df1-b4a4-3eb1-d46319730dec" executionId="7ce811cb-82a7-4fde-85bd-26aa46935af9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="601c013e-eb85-0645-0ddb-6b770b4e81d0" executionId="3a6b0956-2b5e-4735-be5d-84c85dbc4fd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c7bd2bd-f028-9960-acd0-28e4aed9bb80" executionId="8ae7becc-1905-4c13-b37d-ef540b966d26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.4)
+[xUnit.net 00:00:03.89]   Discovering: Applicative.Functors.Tests
+[xUnit.net 00:00:04.17]   Discovered:  Applicative.Functors.Tests
+[xUnit.net 00:00:04.19]   Starting:    Applicative.Functors.Tests
+[xUnit.net 00:00:05.28]   Finished:    Applicative.Functors.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
